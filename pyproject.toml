@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "JSONGuard"
+version = "0.0.1"
+description = "CLI tool to check the validity of your JSON files"
+authors = [{ name="CraftsByFrayJay" }]
+dependencies = []
+
+[project.scripts]
+jsonguard = "app.cli:main"
