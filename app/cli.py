@@ -3,7 +3,7 @@ import json
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: jsonlint-lite <file.json>")
+        print("Usage: jsonguard <file.json>")
         sys.exit(1)
 
     path = sys.argv[1]
